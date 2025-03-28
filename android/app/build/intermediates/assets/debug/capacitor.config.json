@@ -1,0 +1,12 @@
+{
+	"appId": "com.example.capacitorapp",
+	"appName": "Capacitor App",
+	"webDir": "src",
+	"plugins": {
+		"LocalNotifications": {
+			"smallIcon": "ic_notification",
+			"iconColor": "#FF0000",
+			"sound": "notification.wav"
+		}
+	}
+}
