@@ -1,0 +1,27 @@
+{
+  "name": "myapp_capaciotr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && npx cap sync",
+    "cap": "npx cap sync",
+    "android": "npm run build && npx cap run android --livereload --external"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@capacitor/android": "^7.1.0",
+    "@capacitor/cli": "^7.1.0",
+    "@capacitor/core": "^7.1.0",
+    "@capacitor/device": "^7.0.0",
+    "@capacitor/dialog": "^7.0.0",
+    "@capacitor/local-notifications": "^7.0.0",
+    "@capacitor/share": "^7.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
